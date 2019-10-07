@@ -50,3 +50,7 @@ function playVideoOnScroll(){
 
 inicializarSlider();
 playVideoOnScroll();
+
+$(document).ready(function() {
+    $('select').material_select();
+  });
